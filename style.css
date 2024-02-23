@@ -1,0 +1,39 @@
+.container1{
+    height: 400px;
+    width: 400px;
+    margin: 50px auto;
+    border: 2px solid rgb(33, 148, 33);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container1 div{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.container{
+    height: 50px;
+    width: 80%;
+    background-color: rgb(230, 164, 77);
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: 2px solid green;
+   font-size: 24px;
+}
+.container ul{
+    display: flex;
+}
+.container li{
+    margin: 10px 30px ;
+    list-style: none;
+
+
+}
